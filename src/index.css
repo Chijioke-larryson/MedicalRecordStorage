@@ -1,0 +1,36 @@
+
+/* Reset body margin and apply base font settings */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* System fonts for better readability */
+  -webkit-font-smoothing: antialiased; /* Smoother text rendering */
+  -moz-osx-font-smoothing: grayscale; /* Smoother text rendering */
+  background-color: #f0f4f8; /* Light background color for a calming effect */
+}
+
+/* Style for code elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; /* Monospace font for code snippets */
+}
+
+/* Additional styles for a medical context */
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50; /* Dark color for headings to enhance readability */
+  margin: 0.5em 0; /* Consistent spacing for headings */
+}
+
+p {
+  color: #34495e; /* Softer dark color for paragraph text */
+  line-height: 1.6; /* Increased line height for better readability */
+}
+
+a {
+  color: #2980b9; /* Medical link color */
+  text-decoration: none; /* Remove underlines for links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for clarity */
+}

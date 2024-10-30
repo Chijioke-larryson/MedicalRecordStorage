@@ -1,0 +1,27 @@
+/* General styles for the Option component */
+.Option {
+    display: flex; /* Flexbox for layout */
+    background-color: #ffffff; /* White background for clarity */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Common link styles */
+.opt__link {
+    flex: 1; /* Equal flex-grow for both links */
+    border: 2px solid #2980b9; /* Medical blue border */
+    display: flex; /* Flexbox for centering text */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    text-decoration: none; /* No underline for links */
+    padding: 1rem; /* Spacing inside the link */
+    font-size: 1rem; /* Base font size */
+    color: #2980b9; /* Medical blue text */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions for hover effects */
+}
+
+/* Hover effects for links */
+.opt__link:hover {
+    background-color: #2980b9; /* Change background on hover */
+    color: #ffffff; /* White text on hover */
+}

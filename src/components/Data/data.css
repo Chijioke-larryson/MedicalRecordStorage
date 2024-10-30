@@ -1,0 +1,123 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Set a default font for the application */
+    background-color: #f4f9fc; /* Light background for better contrast */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding */
+  }
+  
+  /* Search container styles */
+  .search-container {
+    display: flex; /* Use flexbox for aligning items */
+    margin-bottom: 20px; /* Spacing below the search bar */
+    justify-content: center; /* Center the search container */
+  }
+  
+  /* Search input styles */
+  .search-container input {
+    padding: 10px; /* Padding inside the input field */
+    border: 2px solid #007bff; /* Medical blue border */
+    border-radius: 5px; /* Rounded corners */
+    width: 300px; /* Fixed width for uniformity */
+    font-size: 16px; /* Font size for better readability */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s; /* Smooth transition for focus */
+  }
+  
+  .search-container input:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+  }
+  
+  /* Search button styles */
+  .search-button {
+    padding: 10px 15px; /* Padding for button */
+    margin-left: 5px; /* Space between the input and button */
+    background-color: #007bff; /* Medical blue background */
+    color: white; /* White text */
+    border: none; /* No border for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Match font size with input */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Center the "Connect the account" message */
+  .center-message {
+    display: flex;             /* Use flexbox for centering */
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    height: 100vh;            /* Full viewport height */
+    font-size: 24px;          /* Increase font size for emphasis */
+    color: #333;              /* Change text color */
+    text-align: center;       /* Center text alignment */
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;              /* Make the table full width */
+    border-collapse: collapse; /* Remove space between cells */
+    margin-top: 20px;        /* Space above the table */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for table */
+    border-radius: 8px;      /* Rounded corners for table */
+    overflow: hidden;        /* Rounded corners clipping */
+  }
+  
+  th, td {
+    border: 1px solid #ddd;   /* Add border to table cells */
+    padding: 12px;            /* Add padding to table cells */
+    text-align: left;         /* Align text to the left */
+  }
+  
+  th {
+    background-color: #007bff; /* Medical blue background for header */
+    color: white;              /* White text for header */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+  }
+  
+  tr:hover {
+    background-color: #e0e0e0; /* Darker gray on hover */
+  }
+  
+  /* Delete button styles */
+  .delete-button {
+    background-color: red;    /* Red background for delete button */
+    color: white;             /* White text for delete button */
+    border: none;             /* No border for the button */
+    padding: 5px 10px;       /* Padding for the button */
+    border-radius: 5px;      /* Rounded corners */
+    cursor: pointer;          /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .delete-button:hover {
+    background-color: darkred; /* Darker red on hover */
+  }
+  
+  /* Share container styles */
+  .share-container {
+    display: inline-block;     /* Keep share container inline */
+    margin-left: 10px;        /* Space between buttons */
+  }
+  
+  /* Select dropdown styles */
+  .share-container select {
+    padding: 10px; /* Padding for select */
+    border: 2px solid #007bff; /* Medical blue border */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove default outline */
+    font-size: 16px; /* Match font size */
+    margin-right: 5px; /* Space between select and button */
+  }
+  
+  .share-container select:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+  }
+  
+  
